@@ -7,6 +7,7 @@
   <remote  name="cm"
            fetch="git://github.com/" 
            review="review.cyanogenmod.org" 
+           revision="refs/tags/cm-10.2"
            sync-j="4" />
 
   <default revision="refs/tags/android-4.3_r2.1"
