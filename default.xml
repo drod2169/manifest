@@ -381,5 +381,5 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/gwe" name="GWe/android_vendor_gwe" groups="GWE"  remote="gwe" revision="jb-mr2.0-release" />
+  <project path="vendor/gwe" name="GWe/android_vendor_gwe" groups="GWE"  remote="gwe" revision="cm-10.1" />
 </manifest>
