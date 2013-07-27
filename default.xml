@@ -8,12 +8,16 @@
            fetch="git://github.com/" 
            review="review.cyanogenmod.org" 
            sync-j="4" />
+           
+  <remote  name="gwe"
+           fetch="git://github.com/"
+           sync-j="4" />           
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="GWe/platform_build" groups="pdk" remote="gwe" revision="jb-mr2.0-release"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
