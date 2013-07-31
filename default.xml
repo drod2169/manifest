@@ -36,8 +36,8 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/m7att" name="GWeandroid_device_htc_m7att" remote="gwe" revision="4.3" />
-  <project path="device/htc/m7-common" name="GWeandroid_device_htc_m7-common" remote="gwe" revision="4.3" />
+  <project path="device/htc/m7att" name="GWe/android_device_htc_m7att" remote="gwe" revision="4.3" />
+  <project path="device/htc/m7-common" name="GWe/android_device_htc_m7-common" remote="gwe" revision="4.3" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
